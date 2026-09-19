@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: movie-recut-ai
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
